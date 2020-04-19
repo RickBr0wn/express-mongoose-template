@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
-const templateRoute = require('./Routes')
+const router = require('./Routes')
 
 const app = express()
 const port = 5000
@@ -21,6 +21,6 @@ app.get('/', (req, res) => {
   res.status(200).json({ title: 'Express & Mongoose Template' })
 })
 
-app.use('/api', templateRoute)
+app.use('/api', router)
 
 app.listen(port, () => console.log(`Express dev server started on port ${port}`))

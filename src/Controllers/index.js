@@ -1,4 +1,3 @@
-const mongoose = require('mongoose')
 const Data = require('../Models/Data')
 
 exports.get_all_datas = (req, res) => {
@@ -23,7 +22,7 @@ exports.get_single_data = (req, res) => {
       if (!data) {
         res
           .status(404)
-          .json({ message: 'No data found for provided Data ID' })
+          .json({ message: 'No data found for provided Data id' })
         return
       }
       if (err) {
@@ -51,7 +50,7 @@ exports.create_a_data = (req, res) => {
         'created_data': { _id: data._id, data: data.data },
         request: {
           type: 'GET',
-          url: 'localhost:5000/api/create_a_data' + data._id
+          url: 'localhost:5000/api/create_a_data/' + data._id
         }
       })
     }).catch(err => {

@@ -6,6 +6,8 @@ const router = require('./Routes')
 const app = express()
 const port = 5000
 
+// If using a cloud based solution replace 'mongodb://localhost:27017/express-mongoose-template'
+// with the connection string supplied by your cloud supplier.
 mongoose.connect(
   'mongodb://localhost:27017/express-mongoose-template',
   { useNewUrlParser: true, useUnifiedTopology: true },

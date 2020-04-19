@@ -38,6 +38,16 @@ This will remove the existing git history, and allow you to link it to a new rep
 
 > Please credit this boilerplate if you build something fantastic!
 
+## Routes
+
+Inside of `./src/Controllers/index.js` are a collection of sample routes that involve the five primary `CRUD` functions of persistent storage.
+
+- **GET** `./api/get-all-datas` - Get multiple documents from the database.
+- **GET** `./api/get_single_data/:dataId` - Get a single document from the database, based on a dataId.
+- **POST** `./api/create_a_data` - Creates a single document and assigns it a dataId.
+- **DELETE** `./api/delete_a_data/:dataId` - Deletes a single document from the database, based on a dataId.
+- **PATCH** `./api/update_a_data/:dataId` - Updates a single document from the database, based on a dataId.
+
 ## Running the tests
 
 No test scripts available

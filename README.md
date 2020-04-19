@@ -15,7 +15,7 @@ To get this boilerplate running locally you will need:
 - your favorite IDE (vscode, sublime)
 - mongoDB installed locally
 
-If you want to use a cloud based solution such as [mLabs](https://mlab.com) that is fine, you just need to replace the `connection string` withe one provided.
+If you want to use a cloud based solution such as [mLabs](https://mlab.com) that is fine, you just need to replace the `connection string` with the one provided.
 
 ### Installing
 

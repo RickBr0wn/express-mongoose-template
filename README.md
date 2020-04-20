@@ -2,8 +2,6 @@
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)[![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://github.com/RickBr0wn/express-mongoose-template?branch=master)
 
-<span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/RickBrown" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
-
 This is a boilerplate template for speeding up the development process in making MERN apps.
 
 ## Getting Started

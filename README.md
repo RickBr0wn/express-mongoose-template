@@ -1,5 +1,9 @@
 # Express & MongoDB template
 
+[![NPM](https://img.shields.io/npm/v/express-mongoose-template.svg)](https://www.npmjs.com/package/express-mongoose-template) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)]() [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com) <span class="badge-npmdownloads"><a href="https://api.npmjs.org/downloads/point/last-month/express-mongoose-template" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/badges.svg" alt="NPM downloads" /></a></span> [![codecov.io Code Coverage](https://img.shields.io/codecov/c/github/dwyl/hapi-auth-jwt2.svg?maxAge=2592000)](https://github.com/RickBr0wn/express-mongoose-template?branch=master)
+
+<span class="badge-buymeacoffee"><a href="https://www.buymeacoffee.com/RickBrown" title="Donate to this project using Buy Me A Coffee"><img src="https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow.svg" alt="Buy Me A Coffee donate button" /></a></span>
+
 This is a boilerplate template for speeding up the development process in making MERN apps.
 
 ## Getting Started
@@ -15,7 +19,7 @@ To get this boilerplate running locally you will need:
 - your favorite IDE (vscode, sublime)
 - mongoDB installed locally
 
-If you want to use a cloud based solution such as [mLabs](https://mlab.com) that is fine, you just need to replace the `connection string` with the one provided.
+If you want to use a cloud based solution such as [mLabs](https://mlab.com) that is fine, you just need to replace the `connection string` with the one provided by your cloud based solution.
 
 ### Installing
 
